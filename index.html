@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vova Khomenko | Digital Delivery and Automation Portfolio</title>
+<meta name="description" content="Digital products, AI workflows and improvement programmes that teams actually adopt. Portfolio of Vova Khomenko, Warsaw.">
+<!-- Kept out of search results for now. Remove the next line to allow indexing. -->
+<meta name="robots" content="noindex, nofollow">
+<style>
+:root{
+  --bg:#FAF7F2; --card:#FFFFFF; --ink:#111111; --muted:#566070; --navy:#0B3D91;
+  --line:#E7E1D6; --soft:#EEF2FA; --track:#E4E8F0;
+  --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
+a{color:var(--navy)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--navy);outline-offset:2px;border-radius:4px}
+.wrap{max-width:880px;margin:0 auto;padding:24px 16px 48px}
+header.top{display:flex;gap:20px;align-items:center;margin-bottom:20px}
+header.top>div{min-width:0}
+.meta{overflow-wrap:anywhere}
+@media (max-width:560px){header.top{flex-direction:column;align-items:flex-start;gap:14px}header.top img{width:88px;height:88px}h1{font-size:1.6rem}.meta span{display:block}.meta span+span::before{display:none}}
+header.top img{width:104px;height:104px;border-radius:50%;object-fit:cover;flex:none;border:3px solid #fff;box-shadow:0 0 0 1px var(--line)}
+h1{font:700 1.9rem/1.2 var(--serif);margin:0 0 4px;color:var(--ink)}
+.role{margin:0 0 6px;font-weight:600;color:var(--navy)}
+.slogan{margin:0 0 6px;font:italic 700 1.15rem/1.3 var(--serif);color:var(--navy)}
+.tag{margin:0 0 10px;color:var(--ink)}
+.meta{margin:0;font-size:.92rem;color:var(--muted)}
+.meta span+span::before{content:"\00b7";margin:0 8px;color:var(--line)}
+nav.tabs{display:flex;gap:6px;overflow-x:auto;border-bottom:1px solid var(--line);margin:8px 0 24px;padding-bottom:0;scrollbar-width:thin}
+nav.tabs button{flex:none;font:600 .95rem var(--sans);background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:12px 14px;cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--navy);border-bottom-color:var(--navy)}
+nav.tabs button:hover{color:var(--navy)}
+.panel{display:none}
+.panel.on{display:block}
+html.no-js .panel{display:block;margin-bottom:40px}
+html.no-js nav.tabs{display:none}
+h2{font:700 1.5rem/1.25 var(--serif);margin:0 0 6px}
+h3{font:700 1.15rem/1.3 var(--serif);margin:0 0 10px}
+h4{margin:0 0 2px;font:700 .78rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.lead{color:var(--muted);margin:0 0 20px}
+p{margin:0 0 12px}
+.group{margin:32px 0 12px;font:700 .85rem var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--navy)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:20px 0 28px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.tile .num{font:700 2rem/1.1 var(--serif);color:var(--navy);margin:0 0 4px}
+.tile .lab{margin:0 0 8px;font-size:.95rem}
+.tile .proj{margin:0;font-size:.85rem;color:var(--muted)}
+.tile .proj b{font-weight:600;color:var(--ink)}
+.tile a{font-size:.88rem}
+.pill{display:inline-block;font:600 .72rem var(--sans);letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--navy);color:var(--navy);border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:middle}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 8px;margin:0 0 16px}
+.blocks>div{margin:0 0 12px}
+.blocks p{margin:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+@media (max-width:640px){.two{grid-template-columns:1fr}header.top{align-items:flex-start}header.top img{width:76px;height:76px}h1{font-size:1.5rem}}
+.em{margin-right:8px}
+.rows{margin:0 0 4px}
+.row{display:grid;grid-template-columns:130px 1fr;gap:4px 18px;padding:12px 0;border-top:1px solid var(--line)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lbl{font:700 .78rem/1.5 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--navy);padding-top:2px}
+.row .lbl .pill{display:block;margin:6px 0 0;width:max-content}
+.row p{margin:0}
+.row.result{grid-template-columns:116px 1fr;background:#EEF3FB;border:0;border-radius:10px;padding:12px 14px;margin:6px 0 12px}
+.row.result+.row{border-top:0}
+.row.ba p{color:var(--ink)}
+.card{padding-bottom:6px}
+.card h3 .pill{margin-left:10px}
+@media (max-width:640px){.row,.row.result{grid-template-columns:1fr}.row .lbl .pill{display:inline-block;margin:0 0 0 8px}}
+.list{list-style:none;padding:0;margin:0}
+.list>li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 10px}
+.list>li strong{display:block;margin-bottom:2px}
+.kv{margin:0}
+.kv>div{display:grid;grid-template-columns:190px 1fr;gap:4px 20px;padding:12px 0;border-bottom:1px solid var(--line)}
+.kv>div:last-child{border-bottom:0}
+.kv dt{font-weight:700;color:var(--navy)}
+.kv dd{margin:0}
+@media (max-width:640px){.kv>div{grid-template-columns:1fr}}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+.note{font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){nav.tabs{flex-wrap:wrap;overflow:visible;gap:0 4px}nav.tabs button{padding:10px 10px;font-size:.9rem}}
+@media print{
+  body{background:#fff}
+  nav.tabs{display:none}
+  .panel{display:block!important;margin-bottom:28px;break-inside:auto}
+  .card,.tile,.list>li{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <img src="data:image/jpeg;base64,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" alt="Portrait of Vova Khomenko" width="104" height="104">
+  <div>
+    <h1>Volodymyr (Vova) Khomenko</h1>
+    <p class="role">Digital Delivery and Automation Portfolio</p>
+    <p class="slogan">AI-Powered. Human-Centered.</p>
+    <p class="tag">Digital products, AI workflows and improvement programmes that teams actually adopt.</p>
+    <p class="meta"><span>Warsaw, Poland</span><span>EU Citizen</span><span><a href="mailto:vova.homa@gmail.com">vova.homa@gmail.com</a></span><span><a href="https://www.linkedin.com/in/vovakhomenko">LinkedIn</a></span></p>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Portfolio sections">
+  <button role="tab" id="t-overview" aria-controls="overview" aria-selected="true">Overview</button>
+  <button role="tab" id="t-products" aria-controls="products" aria-selected="false">Digital products</button>
+  <button role="tab" id="t-ai" aria-controls="ai" aria-selected="false">AI at work</button>
+  <button role="tab" id="t-programmes" aria-controls="programmes" aria-selected="false">People &amp; programmes</button>
+  <button role="tab" id="t-tools" aria-controls="tools" aria-selected="false">Tools &amp; methods</button>
+  <button role="tab" id="t-about" aria-controls="about" aria-selected="false">About &amp; contact</button>
+</nav>
+
+<!-- ===================== OVERVIEW ===================== -->
+<main>
+<section class="panel on" id="overview" role="tabpanel" aria-labelledby="t-overview" tabindex="0">
+  <h2>Overview</h2>
+  <p>11+ years at Procter &amp; Gamble. I recently moved into an IOP Digital Transformation Leader role in the One Beauty business unit (Hair Care, Skin Care, Personal Care), leading Initiatives Operations Planning (IOP) digital transformation across 8 markets, with digital applications for 50+ users across planning roles. Before that, 3.5 years as IOP Key User, promoted to Technical Manager IT. I use AI daily to move faster from idea to requirements, mockups, and stakeholder-ready reporting. Delivered through Scrum sprints, PDCA cycles, and Kanban.</p>
+
+  <div class="tiles">
+    <div class="tile">
+      <p class="num">100%</p>
+      <p class="lab">core functionality uptake in month one, the highest adoption across business units</p>
+      <p class="proj"><b>Initiative readiness platform.</b> <a href="#products" data-tab="products">Details</a></p>
+    </div>
+    <div class="tile">
+      <p class="num">~80 h/month</p>
+      <p class="lab">projected savings across ~45 users <span class="pill">projected</span></p>
+      <p class="proj"><b>Planning dashboard redesign.</b> <a href="#products" data-tab="products">Details</a></p>
+    </div>
+    <div class="tile">
+      <p class="num">~20 to 40 h/week</p>
+      <p class="lab">projected savings across 20 initiative leaders <span class="pill">projected</span></p>
+      <p class="proj"><b>AI chatbot rollout.</b> <a href="#ai" data-tab="ai">Details</a></p>
+    </div>
+    <div class="tile">
+      <p class="num">4.75 / 5</p>
+      <p class="lab">satisfaction in the sleep pilot, 16 participants a month</p>
+      <p class="proj"><b>Sleep wellbeing feature.</b> <a href="#products" data-tab="products">Details</a></p>
+    </div>
+    <div class="tile">
+      <p class="num">85%</p>
+      <p class="lab">against an 80% target in the annual capability assessment</p>
+      <p class="proj"><b>Capability assessment.</b> <a href="#programmes" data-tab="programmes">Details</a></p>
+    </div>
+  </div>
+  <p class="note">Figures marked projected are projections, as stated on my CVs.</p>
+</section>
+
+<!-- ===================== DIGITAL PRODUCTS ===================== -->
+<section class="panel" id="products" role="tabpanel" aria-labelledby="t-products" tabindex="0">
+  <h2>Digital products</h2>
+  <p class="lead">What each product does, what I did, and what it delivered.</p>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">🧭</span>Initiative readiness platform</h3>
+    <div class="rows">
+      <div class="row"><div class="lbl">What it does</div><p>A new platform that brings a product initiative's readiness and key risks into one view for initiative leaders and leadership.</p></div>
+      <div class="row ba"><div class="lbl">Before and after</div><p>Before, the checks were split across several tools with fragmented visibility. After, one view.</p></div>
+      <div class="row"><div class="lbl">My part</div><p>Home Care business-unit representative on the platform. I helped shape the tool with early prototypes, UX proposals, and early testing, and led its rollout in Home Care.</p></div>
+      <div class="row result"><div class="lbl">Result</div><p>Home Care reached the highest adoption rate across all business units and 100% core functionality uptake within the first month, saving ~3.5 hours per month per team member.</p></div>
+    </div>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">📊</span>Planning dashboard redesign (Power BI)</h3>
+    <div class="rows">
+      <div class="row"><div class="lbl">What it does</div><p>Turns a complex, data-heavy planning dashboard into a decision-focused view with views by role and recommended actions.</p></div>
+      <div class="row ba"><div class="lbl">Before and after</div><p>Before, raw data extracts and manual actions by email and Excel. After, one decision-focused view.</p></div>
+      <div class="row"><div class="lbl">My part</div><p>Co-led a sprint-based redesign with the DevOps team.</p></div>
+      <div class="row result"><div class="lbl">Result<span class="pill">projected</span></div><p>Adopted as the deployment standard, with projected savings of ~80 hours per month across ~45 users.</p></div>
+    </div>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">🧪</span>Digital Testers team</h3>
+    <div class="rows">
+      <div class="row"><div class="lbl">What it is</div><p>A 7-person cross-functional team I founded and led for 16+ months, running Agile sprint testing cycles with DevOps.</p></div>
+      <div class="row result"><div class="lbl">Result</div><p>Shaped the design and quality of two major tool deployments before wider rollout.</p></div>
+    </div>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">😴</span>Sleep wellbeing feature</h3>
+    <div class="rows">
+      <div class="row"><div class="lbl">What it does</div><p>A sleep feature added to the existing corporate fitness app, so the wellbeing programme goes beyond activity competitions.</p></div>
+      <div class="row"><div class="lbl">My part</div><p>Conceived the feature as part of the wellbeing steering team, wrote the user stories, secured stakeholder approval, and coordinated development and rollout.</p></div>
+      <div class="row result"><div class="lbl">Result</div><p>In a 3-month pilot, 16 participants per month on average and a 4.75/5 satisfaction score.</p></div>
+    </div>
+  </article>
+</section>
+
+<!-- ===================== AI AT WORK ===================== -->
+<section class="panel" id="ai" role="tabpanel" aria-labelledby="t-ai" tabindex="0">
+  <h2>AI at work</h2>
+  <p class="lead">Each item shows what I did with AI and what it delivered.</p>
+
+  <p class="group">Headline results</p>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">📝</span>Survey analysis in hours, not days</h3>
+    <p>A large team satisfaction and process-gap survey runs three times a year. I analyse the responses with AI, which cut the analysis from several days to a couple of hours and pinpointed which current processes were not working. I then use AI to build the presentation for leadership, which helped focus attention and effort on closing the critical gaps.</p>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">🎙️</span>From voice notes to a clickable prototype</h3>
+    <p>I recorded the requirements for a new tool by voice, turned them into technical documentation with AI, and built a clickable prototype that aligned the developers and became the starting product backlog. Requirements documentation went from about a week to a couple of hours, and the handover to developers from weeks to a few days.</p>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">💬</span>AI chatbot rollout<span class="pill">projected savings</span></h3>
+    <p>I coordinated the testing and rollout of an AI chatbot as one of three early-adopter business units, and acted as key user and trainer for the tool. Each of the 20 initiative leaders spends 2 to 4 hours a week on a calculation of potential scrap and non-productive inventory. The chatbot is projected to cut at least half of that, saving ~20 to 40 hours per week across the group. It also moves the calculation from weekly to daily, so teams react faster to customer orders, material changes, and deliveries.</p>
+  </article>
+
+  <p class="group">Systems I built with AI</p>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">📦</span>Claude Cowork setup package</h3>
+    <p>A complete package of step-by-step instructions and ready-made templates that lets another person install a working Claude Cowork command center on their own. The first person to use it completed the full setup with the package alone, without live help from me, and now has a working workspace for their content creation.</p>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">🧾</span>Reimbursement document workflow <span class="pill">personal project</span></h3>
+    <p>Built in ChatGPT Work. It turns scattered reimbursement documents into one English review package. It finds the source emails through Gmail and Google Drive connectors, groups the documents by event, and links each service to its receipt and payment confirmation. Originals stay unchanged, Ukrainian documents get separate English translations, and nothing is shared without my approval. I turned the process into a reusable skill and knowledge base, so each following month starts with only the new search details.</p>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">✉️</span>Client outreach system</h3>
+    <p>Message templates for cold, warm, and hot contacts, written for different languages, plus a tracker that records each contact's status and the date of the next follow-up. AI drafts each message from the contact's details, so the outreach stays personal and consistent.</p>
+  </article>
+
+  <article class="card"><h3><span class="em" aria-hidden="true">📈</span>Habit-tracking dashboards</h3>
+    <p>Personal dashboards that turn my daily habit entries into interactive charts, so I can see trends and adjust my routines.</p>
+  </article>
+
+  <p class="group">How I use AI every day</p>
+  <p><strong><em>AI-powered, human-centered.</em></strong> AI is my thinking partner. It drafts documents, presentations, and messages for me, and it also questions my ideas, challenges my assumptions, and shows me blind spots. I decide what goes out, and what goes out still sounds like me.</p>
+  <p><strong>Tools.</strong> At work I use Microsoft 365 Copilot, the AI approved for the company environment. For personal projects I use ChatGPT, Claude, and Gemini, and Claude and ChatGPT are the two I use the most. In chat I analyse data, extract key information from complex documents, and build knowledge bases and process documentation.</p>
+  <p>Beyond chat, for personal projects I use agentic tools such as Claude Cowork and ChatGPT Work, where the AI carries out multi-step tasks from a shared brief instead of a back-and-forth. In Claude Cowork I run my own working system: a command center with standing rules, memory files, and a separate workspace for each area of my work, so every session starts with the right context. I build my own Skills in Claude, which are reusable instructions for tasks I repeat, and I connect Claude to my other tools with connectors and plugins.</p>
+  <p><strong>My command center and my voice.</strong> That command center also holds a full memory of who I am, what I stand for, what I stand against, and how I write. Everything I produce starts from that, so it keeps my voice.</p>
+  <p><strong>Context over clever prompts.</strong> I do not rely on clever prompts. I believe in context engineering: the more context I give an AI, the better the result. I explain the purpose, the goal, the value, the format I need, and the change I want to achieve.</p>
+  <p><strong>Flipped interaction and voice.</strong> I mostly let the AI interview me, one question at a time, so it learns more about my work and about me. I answer by voice with Superwhisper, a dictation app, because talking is much faster than typing and gives the AI richer context.</p>
+  <p><strong>Visual pages.</strong> I think visually, so I often ask AI to build an interactive, clickable HTML page instead of a document. It makes information easier to take in. This portfolio is an example.</p>
+  <p>I use NotebookLM for learning. It works from the sources I upload and shows where each answer comes from, so I can check conclusions against the original. For visual tasks I use Claude Design and Canva, and Lightroom and Photoshop for photography.</p>
+
+  <p class="group">How I keep it reliable</p>
+  <p>Sources first. I give AI my own documents to work from, and every figure traces back to a source document. This page is an example: I checked every number on it against my CVs and LinkedIn profile with a script.</p>
+  <p><strong>Ethics.</strong> I never put company-sensitive data into AI tools that are not approved for it. I check every result myself before I use it, I treat AI answers as drafts to challenge, and I challenge my own thinking too.</p>
+
+  <p class="group">AI learning</p>
+  <p>Generative AI Prompting Practitioner (P&amp;G); Future Skills Lab AI Champion, 2nd in Warsaw site (P&amp;G); Generative AI for Leaders (Vanderbilt University).</p>
+</section>
+
+<!-- ===================== PROGRAMMES AND PEOPLE ===================== -->
+<section class="panel" id="programmes" role="tabpanel" aria-labelledby="t-programmes" tabindex="0">
+  <h2>People &amp; programmes</h2>
+
+  <p class="group">People and capability building</p>
+  <ul class="list">
+    <li><strong><span class="em" aria-hidden="true">🤝</span>Key User programme</strong>Built it from zero for Home Care: onboarding, qualification, coaching, and a peer support network. Result: 400+ support tickets resolved in year one, and the network now runs independently.</li>
+    <li><strong><span class="em" aria-hidden="true">📘</span>Key User handover guide</strong>Wrote a complete handover guide for the Key User role over several weeks, documenting every process of the role step by step. It gave my successor a smooth transition and now serves as the reference guide for the role. To my knowledge, no one had documented the role in this detail before.</li>
+    <li><strong><span class="em" aria-hidden="true">👋</span>Team onboarding</strong>Redesigned into a self-service programme (pre-recorded sessions, completion tracker, First Steps guide). Result: ~75% less facilitator time, with no loss in quality.</li>
+    <li><strong><span class="em" aria-hidden="true">🎓</span>Qualification</strong>28+ planning professionals qualified over 3 years, and 2 internal facilitators developed.</li>
+    <li><strong><span class="em" aria-hidden="true">🏅</span>Capability assessment</strong>Led 3 consecutive annual assessments. Result: 85% in FY25-26, 5 points above the 80% target, and the first business unit to complete it that year.</li>
+    <li><strong><span class="em" aria-hidden="true">🌿</span>Wellbeing leadership</strong>As part of the wellbeing steering team, I lead a wellbeing programme. I built a SharePoint portfolio site that brings the programme's initiatives together in one place, and I run sessions myself: a workshop on small daily habits that support mood, focus, connection, and stress release, body relaxation, and tai chi. I also organised a wellbeing picnic with volleyball, frisbee, tai chi, slackline, and Finnish bowling. It sits alongside the sleep feature in Digital products.</li>
+  </ul>
+
+  <p class="group">Programmes and process ownership</p>
+  <ul class="list">
+    <li><strong><span class="em" aria-hidden="true">🚀</span>Digital transformation programme</strong>Co-led a multi-year programme across 3 iterations, running 10+ parallel improvement projects on an Agile-inspired operating rhythm. Result: ~10 hours per month per team member in measured productivity savings.</li>
+    <li><strong><span class="em" aria-hidden="true">🔄</span>Phase-out handover process</strong>Took ownership: appointed franchise-level process owners, set a monthly tracking cadence, and built a semi-automated monitoring tool. Result: ~$3,000 to 5,000 recovered in previously untracked write-offs, and year-end workload spikes removed. Now I lead the requirements and co-development of a Power Apps app that replaces the Excel checklist: it tracks leftover items that need to be archived, deleted, or scrapped, sends email reminders to owners, and gives leadership a clear view of where things stand. It is at MVP stage.</li>
+    <li><strong><span class="em" aria-hidden="true">🎯</span>Phase-in/phase-out adherence dashboard</strong>Single point of contact for a Power BI dashboard that shows execution gaps. Weekly review meetings where teams fix violations. Aiming to lift adherence from 34% to the 80% target.</li>
+    <li><strong><span class="em" aria-hidden="true">🛡️</span>Risk assessment tool</strong>Spotted a gap in the tool used for health check compliance, built the cross-business-unit case, secured approval, and co-delivered the upgrade. Result: adoption doubled and full compliance scoring enabled.</li>
+  </ul>
+
+  <p class="group">Earlier delivery (2015 to 2023)</p>
+  <ul class="list">
+    <li><strong><span class="em" aria-hidden="true">🗂️</span>Initiative leadership (2019 to 2023)</strong>Led 10 to 15 product initiatives per year (2 to 3 large) across 4 plants in the Czech Republic, Turkey, Belgium, and Italy and 6 to 8 markets. Result: material and product remnants reduced by 20%.</li>
+    <li><strong><span class="em" aria-hidden="true">🏭</span>Integrated planning (2015 to 2019)</strong>Kept service above 98% for two manufacturing sites and moved planning from the Czech Republic to Warsaw with zero service disruption. Halved line changeovers on selected lines, from four to two per week.</li>
+  </ul>
+</section>
+
+<!-- ===================== TOOLS AND METHODS ===================== -->
+<section class="panel" id="tools" role="tabpanel" aria-labelledby="t-tools" tabindex="0">
+  <h2>Tools &amp; methods</h2>
+  <dl class="kv">
+    <div><dt>AI and data</dt><dd>ChatGPT, Claude, Gemini (personal projects), Microsoft 365 and Copilot (work), Power BI (dashboard redesign and reporting), Microsoft Power Apps (co-development of a tracking app).</dd></div>
+    <div><dt>Agentic and AI workflow tools (personal projects)</dt><dd>Claude Cowork (own command center, Skills, connectors, plugins), ChatGPT Work, NotebookLM.</dd></div>
+    <div><dt>Visual tools</dt><dd>Claude Design, Canva, Lightroom, Photoshop.</dd></div>
+    <div><dt>Voice</dt><dd>Superwhisper, a dictation app I use with the AI tools above.</dd></div>
+    <div><dt>Hosting</dt><dd>GitHub (basics; hosts this portfolio page).</dd></div>
+    <div><dt>Planning systems</dt><dd>SAP, OMP+.</dd></div>
+    <div><dt>Ways of working</dt><dd>Scrum, Kanban, PDCA, user stories, backlog prioritisation and requirements, change management, capability building and training design.</dd></div>
+    <div><dt>Recognition</dt><dd>4 internal P&amp;G performance awards across FY24 to FY26, including two for Execute With Excellence, plus Innovate For Growth and Lead With Courage.</dd></div>
+  </dl>
+</section>
+
+<!-- ===================== ABOUT AND CONTACT ===================== -->
+<section class="panel" id="about" role="tabpanel" aria-labelledby="t-about" tabindex="0">
+  <h2>About &amp; contact</h2>
+  <dl class="kv">
+    <div><dt>Roles at Procter &amp; Gamble</dt><dd>IOP Digital Transformation Leader (Technical Manager), Sep 2026 to present<br>Technical Manager IT, Key User, May 2023 to Aug 2026<br>Initiatives Operation Leader, Jul 2019 to Apr 2023<br>Site Integrated Planner, Jul 2015 to Jun 2019</dd></div>
+    <div><dt>Earlier</dt><dd>Robotics Engineer Consultant, Reago Group, 2015<br>IT/OT Security Analyst, Ernst &amp; Young, 2013 to 2015<br>Sales &amp; Technical Engineer, Wittur Group, 2012 to 2013</dd></div>
+    <div><dt>Education</dt><dd>M.Sc. Robotics &amp; Automation Engineering (Honors), University of Genova and Warsaw University of Technology, 2012<br>B.Eng. Aerospace Engineering (Honors), Kyiv Polytechnic Institute, 2010</dd></div>
+    <div><dt>Certifications</dt><dd>Professional Scrum Product Owner (PSPO I), in preparation; Agile Essentials (Google / Coursera); Agile &amp; Scrum Foundations (Procter &amp; Gamble)</dd></div>
+    <div><dt>Languages</dt><dd>English and Polish, professional proficiency; Ukrainian and Russian, native</dd></div>
+    <div><dt>Outside work</dt><dd>Portrait photographer (<a href="https://www.khomenkophotography.com/">khomenkophotography.com</a>), trail running, hiking, meditation practitioner, certified first aider</dd></div>
+    <div><dt>Based in</dt><dd>Warsaw, Poland. EU citizen. Open to hybrid or remote roles.</dd></div>
+    <div><dt>Contact</dt><dd><a href="mailto:vova.homa@gmail.com">vova.homa@gmail.com</a><br><a href="https://www.linkedin.com/in/vovakhomenko">linkedin.com/in/vovakhomenko</a></dd></div>
+  </dl>
+</section>
+</main>
+
+<footer>Last updated: October 2026</footer>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement; root.classList.remove('no-js');
+  var tabs=[].slice.call(document.querySelectorAll('nav.tabs [role=tab]'));
+  var ids=tabs.map(function(t){return t.getAttribute('aria-controls');});
+  function show(id,focus){
+    if(ids.indexOf(id)<0) id='overview';
+    tabs.forEach(function(t){
+      var on=t.getAttribute('aria-controls')===id;
+      t.setAttribute('aria-selected',on?'true':'false');
+      t.tabIndex=on?0:-1;
+      document.getElementById(t.getAttribute('aria-controls')).classList.toggle('on',on);
+      if(on&&focus) t.focus();
+    });
+    if(history.replaceState){ history.replaceState(null,'',id==='overview'?location.pathname+location.search:'#'+id); }
+    window.scrollTo(0,0);
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){show(t.getAttribute('aria-controls'));});
+    t.addEventListener('keydown',function(e){
+      var n=null;
+      if(e.key==='ArrowRight') n=(i+1)%tabs.length;
+      if(e.key==='ArrowLeft') n=(i-1+tabs.length)%tabs.length;
+      if(e.key==='Home') n=0;
+      if(e.key==='End') n=tabs.length-1;
+      if(n!==null){e.preventDefault();show(ids[n],true);}
+    });
+  });
+  [].slice.call(document.querySelectorAll('a[data-tab]')).forEach(function(a){
+    a.addEventListener('click',function(e){e.preventDefault();show(a.getAttribute('data-tab'));});
+  });
+  window.addEventListener('hashchange',function(){show(location.hash.replace('#',''));});
+  show(location.hash.replace('#',''));
+})();
+</script>
+</body>
+</html>
